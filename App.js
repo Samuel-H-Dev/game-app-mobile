@@ -1,20 +1,20 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { useState } from 'react';
+import { NativeBaseProvider, Box, Text } from "native-base";
+import HomeNav from './GameList/HomeNav';
+
+
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <NativeBaseProvider >
+      <Box bg="blueGray.400" flex={1} alignItems={'center'} justifyContent={'center'} h={"100%"}>
+        <Text mt={"5%"}> Home </Text>
+        <HomeNav />
+        <StatusBar style="auto" />
+      </Box>
+    </NativeBaseProvider>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+

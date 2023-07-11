@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "name": "Rock, Paper, Scissor",
+        "img": "https://freesvg.org/img/rock-paper-scissors.png",
+        "playerReq": 2,
+        "description": "A common stratagy game where a player has to choose one of three shapes (rock, paper, or scissors), with the outcome determined by a set of predefined rules where rock beats scissors, scissors beat paper, and paper beats rock."
+    },
+    {
+        "id": 2,
+        "name": "Tic Tac Toe",
+        "img": "https://cdn.icon-icons.com/icons2/390/PNG/512/tic-tac-toe_39453.png",
+        "playerReq": 2,
+
+        "description": "A basic game most people played as children first player to make 3 in a row of their corrisponding symbol ('x' or 'O') wins"
+    },
+    {
+        "id": 3,
+        "name": "Higher Lower",
+        "img": "https://cdn-icons-png.flaticon.com/512/6688/6688059.png",
+        "playerReq": 1,
+        "description": "A simple startagy game where the player has to guess if the next number will be a higher number or lower numbther than they have"
+    }
+]

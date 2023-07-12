@@ -4,7 +4,7 @@
         "name": "Rock, Paper, Scissor",
         "img": "https://freesvg.org/img/rock-paper-scissors.png",
         "playerReq": 2,
-        "description": "A common stratagy game where a player has to choose one of three shapes (rock, paper, or scissors), with the outcome determined by a set of predefined rules where rock beats scissors, scissors beat paper, and paper beats rock."
+        "description": "A stratagy game where a player has to choose between rock, paper, or scissors, with the winner being the player that chose the oposing option | ex: paper beats rock."
     },
     {
         "id": 2,
